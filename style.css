@@ -11,6 +11,7 @@ body {
    padding: 0;
    font-weight: bold;
    background-color: #ddd999;
+   overflow: hidden;
 }
 h1, h2, h3, ul, li, a, p {
    list-style: none;
