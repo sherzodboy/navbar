@@ -59,10 +59,7 @@ nav .fas {
    cursor: pointer;
 }
 @media(max-width:650px){
-   header nav {
-      width: 90%;
-   }
-   nav .fas {
+    nav .fas {
       display: block ;
    }
    nav .nav_menu .fas {
@@ -74,7 +71,7 @@ nav .fas {
       padding-left: 10px;
       position: absolute;
       top: 0;
-      left: 0;
+      right: 0;
       width: 100%;
       height: 100vh;
       background-color: rgba(17, 17, 17, 0.6);
@@ -82,7 +79,7 @@ nav .fas {
       display: flex;
       align-items:center;
       justify-content: center;
-      transform: translateX(100%);
+      transform: translateY(-100%);
       transition: all 0.2s linear;
    }
    nav .nav_menu ul {
@@ -96,6 +93,6 @@ nav .fas {
       font-family: cursive;
    }
    nav .nav_menu.show {
-      transform: translateX(0%);
+      transform: translateY(0%);
    }
 }
